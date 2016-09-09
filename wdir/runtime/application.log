@@ -1,0 +1,76 @@
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2016/09/09 10:21:28 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'bookTable'
+    'controller' => 'book'
+    'post' => array()
+    'get' => array()
+)
+in /home3/dextero3/public_html/development/organicjunipertree/protected/components/Controller.php (28)
+in /home3/dextero3/public_html/development/organicjunipertree/protected/components/Controller.php (178)
+in /home3/dextero3/public_html/development/organicjunipertree/index.php (9)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `tbl_book_table`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `tbl_book_table`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `tbl_book_table`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `tbl_book_table`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `tbl_enquiry`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `tbl_enquiry`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `tbl_enquiry`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `tbl_enquiry`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `tbl_book_page`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `tbl_book_page`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `tbl_book_page`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `tbl_book_page`)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_book_page` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_book_page` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_url` `t` WHERE (action=:ycp0) AND (controller=:ycp1) LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_url` `t` WHERE (action=:ycp0) AND (controller=:ycp1) LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_banner` `t` WHERE `t`.`url_id`=:yp0 LIMIT 1)
+2016/09/09 10:21:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_banner` `t` WHERE `t`.`url_id`=:yp0 LIMIT 1)
+2016/09/09 14:43:14 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2016/09/09 14:43:14 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2016/09/09 14:43:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2016/09/09 14:43:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2016/09/09 14:43:15 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'index'
+    'post' => array()
+    'get' => array()
+)
+in /home3/dextero3/public_html/development/organicjunipertree/protected/components/Controller.php (28)
+in /home3/dextero3/public_html/development/organicjunipertree/protected/components/Controller.php (178)
+in /home3/dextero3/public_html/development/organicjunipertree/index.php (9)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage_slider` `t`)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage_slider` `t`)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_contact_details` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_homepage` `t` LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_url` `t` WHERE (action=:ycp0) AND (controller=:ycp1) LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_url` `t` WHERE (action=:ycp0) AND (controller=:ycp1) LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_banner` `t` WHERE `t`.`url_id` IS NULL LIMIT 1)
+2016/09/09 14:43:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_banner` `t` WHERE `t`.`url_id` IS NULL LIMIT 1)

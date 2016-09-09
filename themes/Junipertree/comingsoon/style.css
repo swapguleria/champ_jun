@@ -1,0 +1,105 @@
+
+h2, p{color:#fff; font-family:perpetua;}
+@font-face {
+  font-family: 'Perpetua';
+  src: url('Perpetua.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+html{ height:100%;}
+body{
+	background:rgba(0, 0, 0, 0) url("images/bg_jupiner_tree.jpg") no-repeat scroll center top;
+	background-size:cover;
+	height:100%;
+}
+#coming_soon{display:table; width:100%; height:100%;}
+.top{height:100%; display:table-row;}
+.brand{
+	padding-top:50px;
+	padding-left:50px;
+	float:left;
+}
+
+
+.coming_content_inner{
+	margin:10% auto 0;
+
+}
+
+.form-group input{
+	width:28%;
+	border-radius:0;
+	display:inline-block;
+	padding:21px 22px;
+	height:auto;
+	font-family:perpetua;
+	font-style: italic;
+	margin-left:16px;
+	font-size:18px;
+}
+.subs{
+	background:rgba(0, 0, 0, 0) linear-gradient(#f0f1f2, #babcbe) repeat scroll 0 0;
+	width:154px;
+	border-radius:0;
+	display:inline-block;
+	height:70px;
+	margin-left:-4px;
+	font-size:18px;
+	text-transform:uppercase;
+	font-family:perpetua;
+	font-weight:600;
+	vertical-align:0;
+}
+.subs:hover{background:rgba(0, 0, 0, 0) linear-gradient(#babcbe, #f0f1f2) repeat scroll 0 0;}
+
+
+
+h2{
+	font-size:58px;
+	text-transform:uppercase;
+	font-family:perpetua;
+	margin-bottom:0;
+}
+.coming_content_inner p:nth-child(2){
+	font-size:30px;
+	font-family:perpetua;
+	font-style:italic;
+}
+.coming_content_inner p:nth-child(3){
+	font-size:28px;
+	font-family:perpetua;
+	font-style: italic;
+}
+
+.footer{position:static; display:table-row;}
+
+.bottom{margin:19px 0 33px;}
+
+
+
+		/*   Responsive		*/
+		
+@media(max-width: 400px){
+	.brand{text-align:center; padding:20px 0 0; float:none;}
+	h2{font-size:32px;}
+	.coming_content_inner p:nth-child(2){font-size:18px;}
+	.coming_content_inner p:nth-child(3){font-size:15px;}
+	.form-group input{width:100%; padding:10px; margin-bottom:15px; margin-left:0; font-size:15px;}
+	.subs{height:46px; font-size:15px;}
+}
+@media(min-width:401px) and (max-width:767px){
+	.brand{text-align:center; padding:20px 0 0; float:none;}
+	h2{font-size:36px;}
+	.coming_content_inner p:nth-child(2){font-size:24px;}
+	.coming_content_inner p:nth-child(3){font-size:18px;}
+	.form-group input{width:240px; padding:12px; font-size:15px; vertical-align:top;}
+	.subs{height:47px; width:115px; font-size:15px;}
+}
+@media(min-width:768px) and (max-width:1200px){
+	h2{font-size:46px;}
+	.coming_content_inner p:nth-child(2){font-size:24px;}
+	.coming_content_inner p:nth-child(3){font-size:20px;}
+	.form-group input{width:240px; padding:12px; font-size:15px; vertical-align:top;}
+	.subs{height:48px; width:115px; font-size:15px; vertical-align:top;}
+}
+

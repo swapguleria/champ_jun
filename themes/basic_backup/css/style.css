@@ -1,0 +1,202 @@
+body {
+    background:#ddd;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color:#000;
+}
+
+/*==================button==============*/
+.btn {
+    border-radius:2px;
+}
+.btn-get {
+    background: #108c74 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    min-height: 45px;
+    min-width: 265px;
+}
+.btn-primary {
+    background:#108C74;
+    border:1px solid #108C74;
+    font-size:16px;
+}
+.btn-primary:hover,.btn-primary:focus {
+    background: #127159 none repeat scroll 0 0;
+    border: 1px solid #127159;
+    box-shadow: 0 1px 2px #000;
+
+}
+
+/*==================button==============*/
+
+
+.form-control {
+    box-shadow:none;
+    min-height:45px;
+    border-radius:2px;
+}
+
+/*==================navigation==============*/
+
+
+.navbar-static-top {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+.navbar-brand {
+    color: #4d4d4d;
+    font-size: 25px;
+    font-weight: 500;
+}
+.nav.navbar-nav.navbar-right a {
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.nav.navbar-nav li a:hover, .nav.navbar-nav li a:focus  {
+    background:#108C74;
+    color: #fff;
+}
+/*==================end naviogation==============*/
+
+/*==================banner start==============*/
+.banner-container {
+    background: url("../images/bg-img.jpeg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    min-height:550px;
+    max-height:550px;
+    overflow:hidden;
+    position:relative;
+}
+.carousel-caption {
+    top: 24%;
+}
+.carousel-caption h1 {
+    font-size:68px;
+    margin: 30px 0;
+}
+/*==================banner end==============*/
+
+/*==================service==============*/
+.services {
+    padding:100px 0;
+    background:#fff;
+}
+.service-inner i {
+    background: #108C74 none repeat scroll 0 0;
+    border-radius:5px;
+    color: #fff;
+    font-size: 45px;
+    line-height: 100px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+/*==================services==============*/
+
+/*==================footer==============*/
+
+.footer {
+    position:fixed;
+    background: #444 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+    text-align:center;
+}
+.footer .text-center.copy > a {
+    color: #108c74;
+}
+/*==================footer==============*/
+
+/*==================login==============*/
+.login-inner {
+    background: #fff none repeat scroll 0 0;
+    border-radius:4px;
+    margin: 50px 0;
+    padding: 20px;
+    box-shadow:0 2px 2px #9d9d9d;
+}
+.login-title {
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 25px;
+    padding-bottom: 11px;
+}
+.login-icons {
+    position:relative;
+}
+.login-icons i {
+    color: #ccc;
+    font-size: 20px;
+    left: 12px;
+    position: absolute;
+    top: 12px;
+}
+.login-inner .form-control:focus {
+    border-color: #108C74;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(16, 140, 16, 0.6);
+    outline: 0 none;
+}
+.login-inner .form-control {
+    font-size: 16px;
+    padding-left:40px;
+}
+.login-inner .checkbox {
+    margin:0;
+}
+.login-inner .login-btn {
+    min-height :45px;
+    font-size:16px;
+    font-weight: 500;
+}
+
+/*==================login==============*/
+
+/*==================contact us==============*/
+.box-1 {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow:0 2px 2px #9d9d9d;
+}
+.errorMessage {
+    color: red;
+}
+/*==================contact us==============*/
+
+
+.dropdown-toggle > img {
+    padding: 19px 0;
+
+    text-align: center;
+}
+.dropdown.lang > div {
+    width: 100%;
+}
+.dropdown.lang a:first-of-type{
+    border: 1px solid #565656;
+    border-radius: 2px;
+    color: #8b8b8b;
+    font-size: 16px;
+    padding: 4px 16px;
+}
+.dropdown.lang .dropdown-menu > li > a {
+    clear: both;
+    color: #333;
+    display: block;
+    border:0px;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+.dropdown-menu {
+    min-width: 76px;
+    border-radius: 0px;
+    border: 0px ;
+    box-shadow: none;
+}

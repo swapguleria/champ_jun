@@ -1,0 +1,669 @@
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight:normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('../fonts/ProximaNova-Semibold.eot');
+	src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+		url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'italiannoregular';
+    src: url('../fonts/italianno-regular-webfont.woff2') format('woff2'),
+         url('../fonts/italianno-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Merriweather-BlackItalic';
+    src: url('../fonts/Merriweather-BlackItalic-webfont.woff2') format('woff2'),
+         url('../fonts/Merriweather-BlackItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+	margin:0;
+	font-size:13px;
+	color:#171717;
+}
+img{
+	border:0;
+}
+.container{
+	max-width:1170px;
+	margin:0 auto;
+}
+
+/*============ Home Page Starts Here ==============*/
+
+/*=============== Header Starts Here ===============*/
+.site-header{
+	border-top:3px solid #c49e60;
+	background:url(../images/header-bg.png) no-repeat;
+	background-color:#000;
+	background-size:cover;
+	position:relative;
+	z-index:2;
+	padding:25px 0;
+}
+.site-header .container{
+	padding:0;
+}
+.site-header .main-menu{
+	padding:39px 0 0;
+}
+.main-menu .navbar-default{
+	margin:0;
+	border:0;
+	background:none;
+}
+.main-menu .navbar-collapse{
+	padding:0;
+}
+.main-menu .navbar-collapse ul,
+.main-menu .navbar-collapse ul li{
+	float:none;
+}
+.main-menu .navbar-collapse ul li{
+	padding:0 21px;
+	display:inline-block;
+}
+.main-menu .navbar-collapse ul li a{
+	text-transform:uppercase;
+	font-family: 'Varela Round', sans-serif;
+	font-weight:400;
+	color:#fff;
+	padding:0 3px 9px;
+}
+.main-menu .navbar-collapse ul li a:hover{
+	color:#c49e60;
+	border-bottom:3px solid #c49e60;
+}
+
+/*=============== Banner Starts Here ===============*/
+.site-banner{
+	position:relative;
+	z-index:1;
+	float:left;
+	width:100%;
+}
+.site-banner #sync2{
+	bottom: 110px;
+    left: 0;
+    position: absolute;
+}
+.site-banner #sync2 .owl-item,
+{
+	float:none;
+	display:inline-block;
+	width:auto !important;
+}
+.site-banner #sync2 .item{
+    cursor: pointer;
+	margin:0 26px 0 0;
+}
+.site-banner #sync2 .owl-item:first-child {
+}
+.site-banner #sync2 .owl-item:last-child .item{
+	margin:0;
+}
+.owl-carousel .owl-controls{
+	display:none !important;
+}
+.site-banner .owl-item{
+	width:100% !important;
+}
+.site-banner .owl-item img{
+	width:100%;
+}
+.site-banner .owl-wrapper{
+	width:auto !important;
+	text-align:center;
+}
+#sync2 .owl-item img{
+	width:auto;
+}
+.owl-carousel {
+	width:100% !important;
+	text-align:center;
+}
+#sync2 .owl-wrapper,
+#carousel .slides{
+	background:url(../images/thumb-bg.png);
+	background-repeat:no-repeat;
+	background-position:20px 35px;
+	background-size:1120px;
+	margin: 0 auto;
+    width: 1140px !important;
+}
+.flexslider ul{
+	padding:0;
+	margin:0;
+}
+.flexslider ul li{
+	list-style:none;
+	position:relative;
+}
+.flexslider ul.flex-direction-nav{
+	display:none;
+}
+#slider.flexslider ul li img,
+#carousel.flexslider ul{
+	width:100% !important;
+}
+.site-banner #carousel{
+	position: absolute;
+    bottom: 110px;
+    width: 100%;
+}
+#carousel.flexslider ul li{
+	width: auto !important;
+    float: none !important;
+    display: inline-block !important;
+	margin:0 35px 0 0 !important;
+	cursor:pointer;
+}
+#carousel.flexslider ul li:last-child{
+	margin:0 !important;
+}
+#carousel.flexslider ul{
+	text-align:center;
+	width:1140px !important;
+}
+
+/*============== 1-Aug-2016 ===================*/
+#sync2 span,
+#carousel ul span{
+	color:#eee;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight:400;
+	font-style:italic;
+	font-size:16px;
+	margin:0 42px 0 0;
+	position:relative;
+}
+#sync2 span:after,
+#carousel ul span:after{
+	background:url(../images/arrows.png) no-repeat;
+	height:16px;
+	width:12px;
+	position:absolute;
+	content:'';
+	right:-20px;
+	top:3px;
+}
+.carousel-caption h1,
+.carousel-caption h2{
+	margin:0;
+	font-size:63px;
+	color:#c49e60;
+	font-family: "italianno";
+}
+.carousel-caption h2{
+	text-transform:uppercase;
+	font-size:64px;
+	color:#eee;
+	margin: 10px 0 20px;
+	font-family: 'Proxima Nova Lt';
+	font-weight:bold;
+}
+.carousel-caption a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:15px;
+	font-family: 'Proxima Nova Lt';
+	font-weight:600;
+	border:1px solid #e6bb74;
+	border-radius:50px;
+	padding:16px 50px;
+	display:inline-block;
+}
+#slider .carousel-caption{
+	top:120px;
+	left:auto;
+	right:auto;
+	bottom:auto;
+	padding:0;
+	width:100%;
+	position:absolute;
+	top:18;
+}
+
+
+/*========== About Us Starts Here============= */
+.about-us {
+	background:url(../images/about-banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top right;
+	float:left;
+	width:100%;
+}
+.inner-about {
+    float: left;
+    width: 100%;
+	text-align:center;
+}
+.inner-heading {
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+}
+.inner-heading h1 {
+	color: rgb(196, 158, 96);
+    font-family: "italianno";
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.inner-heading p {
+    font-family: 'Proxima Nova Rg';
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: center;
+	width:53%;
+	position:relative;
+	margin:0 auto;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+.inner-heading p:before {
+	background:rgb(196, 158, 96);
+	bottom: 8px;
+    content: " ";
+    height: 1px;
+    left: 31px;
+    position: absolute;
+    width: 137px;
+}
+.inner-heading p:after {
+	background:rgb(196, 158, 96);
+	bottom: 8px;
+    content: " ";
+    height: 1px;
+    right: 31px;
+    position: absolute;
+    width: 137px;
+}
+.text-area {
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.middle-content {
+    display: inline-block;
+    font-family: "Merriweather";
+    font-size: 14pt;
+    line-height: 40px;
+	color:#171717;
+    width: 80%;
+}
+.block-area {
+	float:left;
+	width:100%;
+	padding: 50px 0;
+	text-align:center;
+}
+.block-inner-section {
+	 width:890px;
+	 display:inline-block;
+	 margin:0 auto;
+}
+.img-section {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.img-section img {
+	float:left;
+	width:100%;
+}
+.overlay-section {
+    position: absolute;
+    width: 100%;
+	padding: 21px 0;
+}
+.overlay-section h1 {
+	color: rgb(196, 158, 96);
+    font-family: "italianno";
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.overlay-section p {
+	font-family: 'Proxima Nova Rg';
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: center;
+	position:relative;
+	margin:0 auto;
+	color:#ccc;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+.overlay-section a {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:12px;
+	font-family: 'Proxima Nova Lt';
+	font-weight:normal;
+	border:1px solid #e6bb74;
+	border-radius:50px;
+	padding:11px 60px 11px 20px;
+	display:inline-block;
+}
+.view {
+    display: inline-block;
+    margin: 20px auto;
+    position: relative;
+    width: auto;
+}
+.view > span {
+    background: rgb(196, 158, 96) none repeat scroll 0 0;
+    border-radius: 100px;
+    float: right;
+    height: 39px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 39px;
+
+}
+
+.view > span a {
+	border:none;
+	padding: 13px 0 0 4px;
+}
+/*=========== perfect-blend-section ===========*/
+.blend-content {
+    text-align: center;
+}
+.perfect-blend {
+	float:left;
+	width:100%;
+	padding: 30px 0;
+	background:url(../images/book-banner.png);
+}
+.perfect-blend h1 {
+	color: rgb(196, 158, 96);
+    font-family: "italianno";
+    font-size: 50px;
+    text-align: center;
+	padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.perfect-blend p {
+	color: rgb(238, 238, 238);
+    font-family: "Proxima Nova Lt";
+    font-size: 64px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+	text-align: center;
+	position:relative;
+	width:55%;
+	margin:0 auto 10px;
+    text-transform: uppercase;
+}
+.perfect-blend p:before {
+	background:rgb(196, 158, 96);
+	bottom: 47px;
+    content: " ";
+    height: 1px;
+    left: 55px;
+    position: absolute;
+    width: 137px;
+}
+.perfect-blend p:after {
+	background: rgb(196, 158, 96) none repeat scroll 0 0;
+    bottom: 47px;
+    content: " ";
+    height: 1px;
+    position: absolute;
+    right: 55px;
+    width: 137px;
+}
+.perfect-blend a {
+	border: 1px solid rgb(230, 187, 116);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "italianno";
+    font-size: 23px;
+    padding: 10px 55px;
+    text-decoration: none;
+}
+
+/*=============== Our Chef ================*/
+.Our-Chef {
+	float:left;
+	width:100%;
+	background:url(../images/chef-banner.png);
+	background-repeat:no-repeat;
+	background-position:0 160px;
+}
+
+.chef-outer-section {
+	width:100%;
+	float:left;
+}
+.Our-Chef .middle-content {
+   color: rgb(51, 51, 51);
+    display: inline-block;
+    font-family: "Merriweather";
+    font-size: 12pt;
+    line-height: 38px;
+    width: 55%;
+}
+.chef-block {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.chef-outer-section {
+	background:url(../images/check-side-img.png);
+	background-repeat:no-repeat;
+	background-position:right 55px;
+	background-size:450px; 
+}
+.inner-heading-new {
+	float:left;
+	width:100%;
+	padding: 30px 0;
+}
+.inner-heading-new h1 {
+	color: rgb(196, 158, 96);
+    font-family: "italianno";
+    font-size: 42px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.inner-heading-new p {
+	font-family: "Merriweather";
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 53%;
+    word-spacing: 3px;
+}
+.inner-heading-new p:before {
+	background:#c8c8c8;
+    bottom: 8px;
+    content: " ";
+    height: 1px;
+    position: absolute;
+    left: 55px;
+    width: 143px;
+}
+.inner-heading-new p:after {
+	background:#c8c8c8;
+    bottom: 8px;
+    content: " ";
+    height: 1px;
+    position: absolute;
+    right: 55px;
+    width: 143px;
+}
+
+/*============== newsletter =============*/
+.newsletter {
+	float:left;
+	width:100%;
+	text-align:center;
+	margin: 60px 0;
+	padding: 30px 0;
+	background:rgba(245, 243, 244, 0.5);
+}
+.news-inner {
+	display: inline-block;
+    margin: 0 auto;
+    width: 960px;
+}
+.news-inner h1 {
+	color: rgb(196, 158, 96);
+    font-family: "italianno";
+    font-size: 42px;
+    text-align: center;
+	float:left;
+    text-transform: capitalize;
+}
+
+.newsletter form {
+    float: right;
+    margin:26px 0 10px;
+}
+.newsletter form input {
+    border: 1px solid rgb(230, 187, 116) !important;
+    border-radius: 50px !important;
+	color:#616161;
+	font-family: 'Merriweather';
+	font-size:12px;
+	height: 41px;
+	background: rgba(0, 0, 0, 0);
+    margin: 0 10px 0 0 !important;
+    width: 250px !important;
+}
+.newsletter form .btn-default {
+    background-color: rgb(8, 8, 8);
+    color:#eeeeee;
+	border:0 !important;
+	font-family: "Proxima Nova Lt";
+	font-size:15px;
+	border-radius:50px;
+	text-transform:uppercase;
+	padding: 10px 25px;
+	margin: 0 0 0 17px;
+}
+.social-icon {
+    float: left;
+    width: 100%;
+}
+.social {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.social > ul {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 0;
+}
+.social li {
+    float: left;
+}
+/*================ footer =============*/
+.footer {
+	float:left;
+	width:100%;
+	background:url(../images/footer.png);
+	background-position:0 -40px;
+}
+.footer-logo {
+    padding: 20px 0;
+}
+.footer-section {
+    float: left;
+    width: 100%;
+    padding:30px 0 50px;
+}
+.contact-text h2 {
+	font-family: "Proxima Nova Lt";
+	color:#e4e4e4;
+	font-size:15px;
+	margin-bottom: 6px;
+}
+.contact-text p {
+	font-family: "Merriweather";
+	color:#767676;
+	line-height: 18px;
+	font-size: 12px;
+}
+.contact-block {
+    float: left;
+    width: 25%;
+}
+.contact-block > span {
+    background: rgb(48, 48, 48);
+   	border-radius: 26px;
+    float: left;
+    margin:20px 13px 0 0;
+    padding: 7px 20px;
+}
+.contact-text {
+    float:left;
+	width: 52%;
+}
+.footer-logo > img {
+    width: 100%;
+}
+.footer-bar {
+	float:left;
+	width:100%;
+	padding: 20px 0;
+	background:rgba(48, 48, 48, 0.65);
+}
+.copyright {
+	font-family: "Merriweather";
+	color:#8d8d8d;
+	text-align: center;
+    word-spacing: 3px;
+}
+.copyright span {
+	color: rgb(196, 158, 96);
+    font-family: "italianno";
+	font-size: 18px;
+}

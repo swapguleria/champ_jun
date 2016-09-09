@@ -1,0 +1,89 @@
+@media (max-width: 767px)
+{
+.step_box:before
+{
+background:none;
+}
+	
+.why_use_box, .why_use_box.brd_b_none
+{
+border-right:none;
+border-bottom:1px solid #eee;
+}			
+	
+.user_profile_nav li {
+    display: inline-block;
+    width: 100%;
+}
+	
+.user_profile_nav li a {
+    display: inline-block;
+    float: none;
+    width: 100%;
+}
+	
+
+}
+
+
+/* 640 END */
+
+
+
+
+/*=============== 480 START =======*/
+
+@media (max-width: 480px)
+{
+body
+{
+background-size:200% !important;
+}
+	
+	
+	
+.cleaning_services_des
+{
+display:none;
+}
+.mar_top10	
+{
+display:none;
+}
+	
+.form_wrapper	
+{	
+border-radius: 0 0 7px 7px;	
+}
+.supplier_services_form .single_calendar td
+{
+border: 1px solid #DDDDDD;
+padding: 0 9px;
+}
+#calendar th,
+#calendar td {
+font-size: 15px;
+}	
+	
+	
+}
+
+
+/*=============== 360px START =======*/
+
+@media (max-width: 360px)
+{
+.signup_with span 
+{
+    float: left;
+    max-width: 224px;
+    padding-top: 5px;
+}
+.btn-half
+{
+width:100%;
+margin-bottom:10px;
+}	
+	
+  
+}
