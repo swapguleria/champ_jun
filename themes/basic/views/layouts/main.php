@@ -51,7 +51,7 @@ $home_pages = Homepage::model()->find();
                             </div><!--navbar-header-->
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse">
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
                                 <ul class="nav navbar-nav text-right">
                                     <li class="<?php echo ($this->id == 'site' and $this->action->id == 'index') ? 'active' : '' ?>" ><a href="<?php echo Yii::app()->createUrl("site/index"); ?>">Home</a></li>
                                     <li class="<?php echo ($this->id == 'site' and $this->action->id == 'about') ? 'active' : '' ?>" ><a href="<?php echo Yii::app()->createUrl("site/about"); ?>">About</a></li>
@@ -78,7 +78,7 @@ $home_pages = Homepage::model()->find();
         if ($this->action->id != 'index')
             {
             ?>
-            <section class="site-banner inner-banner about-banner" style="background:url('/organicjunipertree/themes/basic/images/about-us-banner.jpg') no-repeat">
+            <section class="site-banner inner-banner about-banner" style="background:url('../themes/basic/images/about-us-banner.jpg') no-repeat">
                 <div class="banner-caption">
                     <h1><?php echo $banner['name']; ?></h1>
                     <h2><?php echo $banner['tagline']; ?></h2>
@@ -230,6 +230,9 @@ $home_pages = Homepage::model()->find();
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery.flexslider-min.js"></script>
         <script type="text/javascript">
             $(document).ready(function () {
+//                $(".navbar-toggle").click(function () {
+//                    $(".navbar-collapse").toggle();
+//                });
                 $('#slider').flexslider({
                     animation: "fade",
                     controlNav: true,
@@ -238,10 +241,10 @@ $home_pages = Homepage::model()->find();
                     sync: "#carousel"
                 });
                 // About US Page Testimonial section
-//                $('.flexslider').flexslider({
-//                    slideshow: false,
-//                    animation: "slide"
-//                });
+                $('.flexslider').flexslider({
+                    slideshow: false,
+                    animation: "slide"
+                });
 
                 $(window).scroll(function () {
                     var scroll = $(window).scrollTop();
@@ -285,7 +288,7 @@ $home_pages = Homepage::model()->find();
                     $(title_sub_title).append(sub_title);
                     $(title_price).append(price);
                 });
-                
+
 //                $("#BookTable_date").datepicker({
 //                    alert("SAd");
 //                            numberOfMonths: 2,

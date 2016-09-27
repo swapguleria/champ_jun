@@ -1,5 +1,20 @@
 
-<?php include 'header.php'; 
+<?php
+// the message
+$msg = "First line of text\nSecond line of text";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg, 70);
+
+
+
+
+mail("someone@example.com", "My subject", $msg);
+
+
+
+
+include 'header.php';
 // print_r($model);
 // die();
 $contact_details = ContactDetails::model()->find();
@@ -32,7 +47,7 @@ $contact_details = ContactDetails::model()->find();
                         <tr>
                             <td style="padding:0px 0px 10px;text-align:center;vertical-align:top" align="center" valign="top">
                                 <span style="font-family:'Helvetica Neue',Arial,'Lucida Grande',sans-serif;font-size:16px;font-weight:normal;line-height:21px;text-align:center">Table for 
-                                    <?php // echo $model->party_size; ?> on Thursday, <?php // echo date('dS M Y', strtotime($model->date)); ?> at <?php // echo $model->time; ?></span>
+<?php // echo $model->party_size;  ?> on Thursday, <?php // echo date('dS M Y', strtotime($model->date));  ?> at <?php // echo $model->time;  ?></span>
                             </td>
                         </tr>
                         <tr>
@@ -46,7 +61,7 @@ $contact_details = ContactDetails::model()->find();
                         </tr>
                         <tr>
                             <td style="padding:10px 0px;text-align:center;vertical-align:top" align="center" valign="top">
-                                <a href="http://development.dexterousteam.com/organicjunipertree/site/menu" style="color:#da3743;text-decoration:none" target="_blank"><span style="color:#da3743;font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:14px;font-weight:normal;line-height:21px">See menu</span></a>
+                                <a href="http://organicjunipertree.com/site/menu" style="color:#da3743;text-decoration:none" target="_blank"><span style="color:#da3743;font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:14px;font-weight:normal;line-height:21px">See menu</span></a>
                                 <span style="color:#da3743;font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:14px;font-weight:normal;line-height:21px">|</span>
                                 <a href="https://www.google.co.in/maps/place/Swapdevelopment+Pvt.+Ltd./@30.6793597,76.7443723,17z/data=!3m1!4b1!4m5!3m4!1s0x390fec0f1288ae75:0x15daac8b51615df3!8m2!3d30.6793551!4d76.746561?hl=en" style="color:#da3743;text-decoration:none" target="_blank"><span style="color:#da3743;font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:14px;font-weight:normal;line-height:21px">Get directions</span></a>
                             </td>

@@ -40,7 +40,7 @@
                   <tbody><tr>
                     <td align="center" style="padding:0px;vertical-align:top" valign="top">
                       <a href="#" style="text-decoration:none" target="_blank">
-                        <img src="http://development.dexterousteam.com/organicjunipertree/wdir/uploads/ContactDetails-1471074634-logo.png" title="Juniper Tree" alt="Juniper Tree" width="251" height="84" border="0" style="display:inline-block;max-width:100%;">
+                        <img src="http://organicjunipertree.com/wdir/uploads/ContactDetails-1471074634-logo.png" title="Juniper Tree" alt="Juniper Tree" width="251" height="84" border="0" style="display:inline-block;max-width:100%;">
                       </a>
                     </td>
                   </tr>

@@ -201,7 +201,7 @@ class SiteController extends Controller
                   <tbody><tr>
                     <td align="center" style="padding:0px;vertical-align:top" valign="top">
                       <a href="#" style="text-decoration:none" target="_blank">
-                        <img src="http://development.dexterousteam.com/organicjunipertree/wdir/uploads/ContactDetails-1471074634-logo.png" title="Juniper Tree" alt="Juniper Tree" width="251" height="84" border="0" style="display:inline-block;max-width:100%;">
+                        <img src="http://organicjunipertree.com/wdir/uploads/ContactDetails-1471074634-logo.png" title="Juniper Tree" alt="Juniper Tree" width="251" height="84" border="0" style="display:inline-block;max-width:100%;">
                       </a>
                     </td>
                   </tr>
@@ -263,7 +263,7 @@ class SiteController extends Controller
             <tbody><tr>
             <td align = "left" height = "27px" width = "37px" style = "color:#c3beb8;font-size:13px;line-height:30px!important;vertical-align:top" valign = "top">
             <a href = "#" style = "color:#da3743!important;font-size:13px;line-height:19px;text-decoration:none" target = "_blank">
-            <img src = "http://development.dexterousteam.com/organicjunipertree/wdir/uploads/ContactDetails-1471074634-logo.png" title = "Juniper Tree" alt = "Juniper Tree" border = "0" height = "84" width = "251" style = "display:inline-block;line-height:30px!important;max-width:100%;">
+            <img src = "http://organicjunipertree.com/wdir/uploads/ContactDetails-1471074634-logo.png" title = "Juniper Tree" alt = "Juniper Tree" border = "0" height = "84" width = "251" style = "display:inline-block;line-height:30px!important;max-width:100%;">
             </a>
             </td>
             </tr>
@@ -274,17 +274,17 @@ class SiteController extends Controller
             <tbody><tr>
             <td align = "left" style = "color:#c3beb8;font-size:13px;line-height:30px!important;padding-top:16px;vertical-align:top;width:30px" valign = "top">
             <a href = "<?php echo $contact_details->facebook; ?>" style = "color:#da3743!important;font-size:13px;line-height:19px" target = "_blank">
-            <img src = "http://development.dexterousteam.com/organicjunipertree/themes/basic/images/fb.png" width = "50" height = "54" title = "Facebook" alt = "Facebook" border = "0" style = "display:block;max-width:100%">
+            <img src = "http://organicjunipertree.com/themes/basic/images/fb.png" width = "50" height = "54" title = "Facebook" alt = "Facebook" border = "0" style = "display:block;max-width:100%">
             </a>
             </td>
             <td align = "left" style = "color:#c3beb8;font-size:13px;line-height:30px!important;padding-top:16px;vertical-align:top;width:30px" valign = "top">
             <a href = "<?php echo $contact_details->twitter; ?>" style = "color:#da3743!important;font-size:13px;line-height:19px" target = "_blank">
-            <img src = "http://development.dexterousteam.com/organicjunipertree/themes/basic/images/twitter.png" title = "Twitter" alt = "Twitter" border = "0" width = "50" height = "54" style = "display:block;max-width:100%">
+            <img src = "http://organicjunipertree.com/themes/basic/images/twitter.png" title = "Twitter" alt = "Twitter" border = "0" width = "50" height = "54" style = "display:block;max-width:100%">
             </a>
             </td>
             <td align = "left" style = "color:#c3beb8;font-size:13px;line-height:30px!important;padding-top:16px;vertical-align:top;width:30px" valign = "top">
             <a href = "<?php echo $contact_details->instagram; ?>" style = "color:#da3743!important;font-size:13px;line-height:19px" target = "_blank">
-            <img src = "http://development.dexterousteam.com/organicjunipertree/themes/basic/images/insta.png" title = "Instagram" alt = "Instagram" border = "0" width = "50" height = "54" style = "display:block;max-width:100%">
+            <img src = "http://organicjunipertree.com/themes/basic/images/insta.png" title = "Instagram" alt = "Instagram" border = "0" width = "50" height = "54" style = "display:block;max-width:100%">
             </a>
             </td>
             </tr>

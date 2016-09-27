@@ -21,7 +21,7 @@ $home_pages = Homepage::model()->find();
                         <h1><?php echo $val->title; ?></h1>
                         <h2><?php echo $val->sub_title; ?></h2>
                         <p><?php echo $val->description; ?></p>
-                        <a href="<?php echo Yii::app()->createUrl("site/book"); ?>"><?php echo $val->link_label; ?></a>
+                        <a href="<?php echo Yii::app()->createUrl("bookTable/book"); ?>"><?php echo $val->link_label; ?></a>
                     </div><!--carousel-caption-->
                 </li>
 

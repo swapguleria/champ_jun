@@ -2,7 +2,7 @@
 $home_pages = Homepage::model()->find();
 $contact_details = ContactDetails::model()->find();
 ?>
-<div class="cutlery-section" style="background:url('/organicjunipertree/themes/basic/images/cutlery-icons.jpg') no-repeat;">
+<div class="cutlery-section" style="background:url('/themes/basic/images/cutlery-icons.jpg') no-repeat;">
 </div><!--cutlery-section-->
 
 <section class="contact-section">

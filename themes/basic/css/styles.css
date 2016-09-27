@@ -187,7 +187,7 @@ img{
     left: 0;
     position: absolute;
 }
-.site-banner #sync2 .owl-item,
+.site-banner #sync2 .owl-item
 {
 	float:none;
 	display:inline-block;
@@ -1970,5 +1970,736 @@ login-inner .login-icons{
 .menu-featured-img img{
 	width:100%;
 	height:auto;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+/* Home Page Starts Here */
+.site-banner #slider .carousel-caption{
+	top:120px;
+}
+.site-banner .carousel-caption h1{
+	font-size:60px;
+}
+.site-banner .carousel-caption h2{
+	font-size:40px;
+	margin:0 0 15px;
+}
+.site-banner #slider .carousel-caption{
+	margin:2px 0 15px;
+}
+.site-banner .carousel-caption p{
+	margin:0 0 20px;
+}
+.site-banner ol{
+	bottom:11px;
+}
+
+/* About Us Section Starts Here */
+body .about-us{
+	float:none;
+	background-position: 0 0 !important;
+}
+.about-us .inner-heading,
+.about-site .inner-heading{
+	padding:56px 0 25px;
+}
+.inner-heading p,
+.about-site .about-content{
+	width:66%;
+}
+.text-area .middle-content{
+	width:100%;
+}
+.inner-about .block-area{
+	float:none;
+}
+.inner-about .text-area{
+	margin:0 0 35px;
+}
+.inner-about .block-inner-section{
+	width:auto;
+}
+.block-inner-section .col-md-6{
+	overflow:hidden;
+	margin:0 0 15px;
+}
+
+/* The Perfect Blend Section Starts Here */
+body .perfect-blend{
+	padding:35px 0;
+}
+.blend-content h1{
+	padding:0;
+	margin:0;
+}
+.perfect-blend p{
+	width:100%;
+	font-size:60px;
+}
+.perfect-blend p:after{
+	right:114px;
+}
+.perfect-blend p:before{
+	left:114px;
+}
+
+/* Our Chef Section Starts Here */
+.chef-outer-section .inner-heading{
+	padding:56px 0 25px;
+}
+.inner-heading-new p:after,
+.inner-heading-new p:before{
+	display:none;
+}
+.chef-outer-section .newsletter{
+	margin:20px 0;
+}
+.newsletter form{
+	float:left;
+	margin:26px 16px 10px;
+}
+.newsletter form input{
+	width:165px !important;
+}
+.newsletter .news-inner{
+	width:100%;
+}
+.news-inner .form-section{
+	float:left;
+	width:76%;
+}
+.newsletter form{
+	margin:26px 10px 10px 16px;
+	width:100%;
+}
+.newsletter form input{
+  width:155px !important;
+}
+
+/* Footer Starts Here */
+body .footer{
+	background-repeat: repeat-y;
+	background-size: cover !important;
+	background-position: 100% center !important;
+}
+.footer-logo img{
+	width:100%;
+}
+.footer-section .col-md-2,
+.footer-section .col-md-10{
+	float:left;
+	width:22%;
+}
+.footer-section .col-md-10{
+	width:78%;
+}
+.contact-block .contact-text{
+	width:100%;
+}
+.contact-area .contact-block{
+	width:25%;
+}
+
+/* About Us Page Starts Here */
+body .about-site{
+	padding:0 0 35px;
+}
+body .our-team{
+	margin:0;
+}
+
+/* Menu Page Starts Here */
+.your_menu .container{
+	width:100%;
+}
+.different-menus span{
+	margin:14px 18px 14px 0;
+}
+.single-meal a{
+	margin:0;
+	width:21%;
+}
+.single-meal a span{
+	padding:39px 0 0;
+}
+.single-meal a img{
+	width:100%;
+	height:auto;
+}
+.complete-menu .menu-content{
+	min-width:auto;
+}
+.menu-content ul li h5 span.item-caption:after{
+	width:75%;
+	bottom:4px;
+}
+.menu-featured-img .search-content{
+	width:403px;
+	left:75%;
+	width:307px;
+}
+.search-content h4{
+	font-size:18px;
+}
+.inner-heading p{
+	width:85%;
+}
+.news-inner h1{
+	width:31%;
+	font-size:40px;
+}
+.news-inner .form-section{
+	width:69%;
+}
+.newsletter form input{
+	width:150px !important;
+}
+
+/* Menu Page Starts Here */
+.menu-featured-img .search-content{
+	left:80%;
+}
+
+/* Book Page Starts Here */
+#book-content .container{
+	width:auto;
+}
+}
+
+@media (max-width:800px) {
+/* Home Page Starts Here */
+.inner-heading p{
+	width:84%;
+}
+
+/* About Page Starts Here */
+.news-inner .form-section{
+	width:65%;
+}
+.testimonials .flexslider ol{
+	width:99%;
+}
+}
+
+@media (max-width:767px) {
+/* Home Page Starts Here */
+
+/* Header Starts Here */
+body .site-header{
+	text-align:center;
+	position:static;
+	background:rgba(0,0,0,.9);
+}
+.site-header .container{
+	padding:0 15px !important;
+}
+.main-menu .navbar-toggle{
+	float:none;
+	margin:0;
+}
+.site-header .main-menu{
+	padding:0;
+}
+.main-menu .navbar-toggle,
+.main-menu .navbar-toggle:focus{
+	background:#c49e60;
+	border-color:#a88448;
+}
+.main-menu .navbar-toggle:hover{
+	background:#b28b4c;
+}
+.main-menu .navbar-default .navbar-toggle .icon-bar{
+	background:#fff;
+}
+.main-menu .navbar{
+	min-height:auto;
+}
+.main-menu .navbar-collapse{
+	box-shadow:none;
+}
+.main-menu .navbar-default .navbar-collapse,
+.main-menu .navbar-collapse ul li a:hover,
+.main-menu .navbar-collapse ul li.active a{
+	border:0 !important;
+}
+.main-menu .navbar-collapse ul{
+	max-width:200px;
+	margin:15px auto 0;
+}
+.main-menu .navbar-collapse ul li{
+	display:block;
+	text-align:center;
+}
+
+/* Banner Starts Here */
+#slider .carousel-caption{
+	top:33px;
+}
+.site-banner h1{
+	font-size:67px;
+}
+.site-banner h2{
+	font-size:69px;
+	margin:2px 0 30px;
+}
+.site-banner p{
+	line-height:20px;
+}
+.flexslider ol{
+	bottom:31px;
+}
+
+/* About Us Section Starts Here */
+body .about-us{
+	background-position:0 0 !important;
+}
+.inner-about .inner-heading,
+.about-site .inner-heading{
+	padding:35px 0 5px;
+}
+.inner-heading p{
+	position:relative;
+	z-index:37;
+}
+.inner-heading p:after,
+.inner-heading p:before,
+.perfect-blend p:before,
+.perfect-blend p:after{
+	display:none;
+}
+.inner-heading p:before{
+	left:-74px;
+}
+.inner-about .block-area{
+	padding:25px 0;
+}
+.block-area .block-inner-section{
+	width:auto;
+}
+.block-inner-section .img-section{
+	float:none;
+	overflow:hidden;
+	margin:0 0 20px;
+}
+.block-inner-section .overlay-section{
+	padding:0;
+	height:100%;
+	padding:35px 0;
+}
+.about-us .middle-content{
+	width:100%;
+}
+
+/* The Perfect Section Starts Here */
+body .perfect-blend,
+body .about-features{
+	padding:35px 0;
+}
+.perfect-blend h1{
+	margin:0;
+	padding:0;
+	font-size:45px;
+}
+.perfect-blend p{
+	font-size:59px;
+}
+.perfect-blend p:after{
+	right:-33px;
+}
+.perfect-blend p:before{
+	left:-33px;
+}
+
+/* Chef Section Starts Here */
+.chef-block .inner-heading{
+	padding:35px 0 20px;
+}
+.Our-Chef .middle-content,
+.about-site .about-content{
+	width:100%;
+}
+.chef-outer-section .inner-heading-new,
+body .about-site{
+	padding:0;
+}
+.inner-heading-new p:after,
+.inner-heading-new p:before{
+	background:none;
+}
+.chef-outer-section .newsletter{
+	padding:35px 0;
+}
+.newsletter .news-inner{
+	width:auto;
+}
+.news-inner h1{
+	margin:0;
+	float:none;
+}
+.newsletter form{
+	float:none;
+}
+.newsletter form input,
+.newsletter form .btn-default{
+	margin:0;
+}
+.chef-outer-section .newsletter{
+	margin:35px 0 30px;
+}
+.news-inner .form-section{
+	width:100%;
+}
+
+/* Footer Starts Here */
+body .footer{
+	background-repeat: repeat-y;
+	background-size: cover !important;
+	background-position: 100% center !important;
+}
+.footer .footer-section,
+.testimonials .inner-heading,
+.our-team .inner-heading{
+	float:none;
+	padding:35px 0 0;
+}
+.footer-section .footer-logo{
+	text-align:center;
+	padding:0;
+}
+.footer-logo img{
+	width:auto;
+}
+.footer-section .contact-area{
+	overflow:hidden;
+}
+.footer .footer-bar{
+	padding:20px 0;
+}
+
+/* About Us Page Starts Here */
+.site-banner.inner-banner{
+	padding:74px 0;
+}
+.about-features .feature-section{
+	max-width:400px;
+	margin:0 auto 25px;
+}
+.about-features .feature-section:last-child{
+	margin:0 auto 0;
+}
+.feature-section .icon-thumb{
+	min-height:auto;
+	margin:0 0 20px;
+}
+.about-features h3{
+	margin:0 0 10px;
+}
+.testimonials .testimonial-content{
+	width:100%;
+}
+.testimonial-content .quotes,
+.different-menus span img{
+	display:none;
+}
+.testimonials .testimonial-content{
+	margin:0 auto 10px;
+}
+.testimonials .flexslider ol{
+	width:97%;
+}
+.our-team .inner-heading{
+	padding-bottom:15px;
+}
+body .our-team{
+	margin:0 0 35px;
+}
+.different-menus span{
+	margin:0;
+	width:100%;
+	float:none;
+	text-align:center;
+}
+.single-meal a{
+	margin:0;
+}
+.different-menus .single-meal{
+	top:0;
+}
+.our-menu.your_menu,
+.menu-content h2{
+	padding:35px 0;
+}
+.single-meal a{
+	width:24.4%;
+}
+.single-meal a img{
+	width:100%;
+	height:auto;
+}
+.single-meal a:hover span{
+	padding:26% 0 0;
+}
+.complete-menu .flexslider{
+	float:none;
+	width:100%;
+}
+.complete-menu .menu-content{
+	float:none;
+	min-width:auto;
+	margin:0;
+	padding:0 15px;
+}
+.menu-content h2{
+	font-size:50px;
+	line-height:normal;
+	text-align:center;
+	padding-bottom:0;
+}
+.menu-content h3{
+	margin:0 0 20px;
+	text-align:center;
+}
+
+/* Menu Page Starts Here */
+.complete-menu .menu-featured-img{
+	width:100%;
+	padding:0 15px;
+}
+.menu-featured-img img{
+	width:100%;
+	height:auto;
+}
+.different-menus span{
+	margin:0 0 15px;
+	font-size:30px;
+}
+
+/* Book Page Starts Here */
+#book-content.booking-here{
+	padding:35px 0;
+}
+.booking-here .booking-description{
+	margin:0 auto 25px;
+}
+.booking-here .block-area{
+	padding:10px 0;
+}
+}
+
+@media (max-width:640px) {
+/* Home Page Starts Here */
+
+/* Banner Starts Here */
+.site-banner .carousel-caption{
+	top:20px;
+}
+.site-banner h1{
+	font-size:45px;
+}
+.site-banner h2{
+	font-size:35px;
+}
+.site-banner h2{
+	margin:0 0 6px;
+}
+.site-banner .carousel-caption{
+	top:12px;
+}
+.site-banner .carousel-caption a{
+	padding:16px 30px;
+}
+.carousel-caption p{
+	margin:0 0 10px;
+}
+.site-banner ol{
+	bottom:0;
+}
+
+/* About Us Section Starts Here */
+.inner-heading p{
+	width:65%;
+}
+.inner-heading p:before{
+	left:-75px;
+	width:75px;
+}
+.inner-heading p:after{
+	right:-75px;
+	width:75px;
+}
+.block-inner-section .col-md-6:first-child .overlay-section p:before{
+	left:83px;
+}
+.block-inner-section .col-md-6:first-child .overlay-section p:after{
+	right:85px;
+}
+
+/* The Perfct Blend Section Starts Here */
+.perfect-blend p:before{
+	width:75px;
+	left:-51px;
+}
+.perfect-blend p:after{
+	right:-51px;
+	width:75px;
+}
+
+/* Chef Section Starts Here */
+.chef-outer-section .newsletter{
+	margin:0 0 15px;
+}
+
+/* Footer Starts Here */
+.footer .footer-section{
+	padding:25px 0 0;
+}
+.footer-section .footer-logo{
+	padding:0;
+	margin:0 0 20px;
+}
+.contact-area .contact-block{
+	width:50%;
+	min-height:106px;
+}
+
+/* About Us Page Starts Here */
+.testimonials .flexslider ol{
+	width:95%;
+}
+
+/* Menu Page Starts Here */
+.different-menus span{
+	font-size:30px;
+}
+.single-meal a{
+	width:49.5%;
+}
+.menu-content ul li h5 span.item-caption::after{
+	left:66%;
+	bottom:4px;
+}
+.menu-featured-img .search-content{
+	left:60%;
+	width:85%;
+}
+}
+
+@media (max-width:479px) {
+/* Home Page Starts Here */
+
+/* Banner Starts Here */
+.site-banner .carousel-caption{
+	top:5px;
+}
+.site-banner h1{
+	font-size:40px;
+	line-height:35px;
+}
+.site-banner h2{
+	font-size:25px;
+	margin:0 0 2px;
+}
+.site-banner p{
+	letter-spacing:normal;
+}
+.site-banner #slider .carousel-caption{
+	top:8px;
+}
+.site-banner .carousel-caption a{
+	padding:5px 15px;
+}
+.site-banner ol{
+	bottom:-8px;
+}
+.site-banner .flex-control-paging li a{
+	height:8px;
+	width:8px;
+}
+
+/* About Us Section Starts Here */
+.about-us .inner-about{
+	float:none;
+}
+.inner-about .inner-heading{
+	padding:25px 0 5px;
+}
+.inner-heading p:before,
+.inner-heading p:after,
+.perfect-blend p:before,
+.perfect-blend p:after{
+	display:none;
+}
+.inner-heading p{
+	width:100%;
+}
+.text-area .middle-content{
+	font-size:14px;
+	line-height:31px;
+}
+.inner-about .block-area{
+	padding:15px 0;
+}
+.block-inner-section .col-md-6,
+.block-inner-section .overlay-section{
+	padding:0;
+}
+.overlay-section h1{
+	font-size:45px;
+	margin:10px 0;
+}
+.overlay-section p:before,
+.overlay-section p:after{
+	display:none;
+}
+.overlay-section .view{
+	margin:15px auto;
+}
+.block-inner-section .img-section{
+	margin:0 0 10px;
+}
+
+/* The Perfect Blend Section Starts Here */
+body .perfect-blend{
+	padding:25px 0;
+}
+.blend-content p{
+	width:100%;
+	line-height:normal;
+	font-size:50px;
+}
+
+/* Our Checf Starts Here */
+.chef-block .inner-heading{
+	padding:25px 0 15px;
+}
+.chef-block .inner-heading-new h1{
+	margin:10px 0;
+}
+.chef-outer-section .newsletter{
+	padding:25px 0;
+	margin:0 0 10px;
+}
+.contact-area .contact-block{
+	width:100%;
+	min-height:auto;
+	text-align:center;
+	overflow:hidden;
+}
+
+/* Menu Page Starts Here */
+.single-meal a{
+	width:49%;
+}
+.menu-content ul li h5 span.item-caption:after{
+	width:65%;
+	left:63%;
+	bottom:5px;
+}
+.search-content h4{
+	font-size:15px;
+}
+.menu-featured-img .search-content{
+	left:87%;
 }
 }

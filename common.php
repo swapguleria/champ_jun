@@ -2,8 +2,8 @@
 // phpinfo();  
 date_default_timezone_set('Asia/Calcutta');
 
-//defined('YII_ENV') or define('YII_ENV','prod');
-defined('YII_ENV') or define('YII_ENV','dev');
+defined('YII_ENV') or define('YII_ENV','prod');
+//defined('YII_ENV') or define('YII_ENV','dev');
 
 //db config path setting
 defined('UPLOAD_PATH') or define('UPLOAD_PATH','/wdir/uploads/');

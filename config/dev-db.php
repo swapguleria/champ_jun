@@ -1,9 +1,9 @@
 <?php
 					return array( 
-						'connectionString' => 'mysql:host=localhost;dbname=dextero3_organicjunipertree',
+						'connectionString' => 'mysql:host=localhost;dbname=organicjunipertree',
 						'emulatePrepare' => true,
-						'username' => 'dextero3_organic',
-						'password' => 'organic',
+						'username' => 'organicjunipertr',
+						'password' => '0rg@njUn1P3R',
 						'charset' => 'utf8',
 						'tablePrefix' => 'tbl_',
 						'enableProfiling' => true,
