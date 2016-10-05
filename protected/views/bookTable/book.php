@@ -265,6 +265,12 @@ $contact_details = ContactDetails::model()->find();
                                 </div><!--overlay-section-->
                             </div><!--img-section-->
                             <div class="book-detail">
+                                <?php if (@$success)
+                                    {
+                                    ?> <div class="alert alert-success">
+                                        Your request is received successful. we will get back to you soon.
+                                    </div>
+                                <?php } ?>
                                 <?php
                                 $form1 = $this->beginWidget('booster.widgets.TbActiveForm', array(
                                     'id' => 'enquiry-form',
@@ -326,7 +332,7 @@ $contact_details = ContactDetails::model()->find();
                                                 {
                                                 ?>
                                                 <option value="">Time</option>
-                                            <?php } ?>
+<?php } ?>
                                             <option value="00:00">00:00</option>
                                             <option value="00:15">00:15</option>
                                             <option value="00:30">00:30</option> 
@@ -480,7 +486,7 @@ $contact_details = ContactDetails::model()->find();
                                         <button type="submit" name="Enquire_now" value="Enquire_now" class="btn btn-default"><?= $book_pages->button_2_text ?></button>
                                     </div>
                                 </div>
-                                <?php $this->endWidget(); ?><!--form-horizontal-->
+<?php $this->endWidget(); ?><!--form-horizontal-->
                             </div><!--book-detail-->
                         </div><!--col-sm-6-->
                     </div><!--block-inner-section-->

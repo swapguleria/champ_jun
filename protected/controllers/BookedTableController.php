@@ -132,6 +132,14 @@ class BookedTableController extends GxController
         {
         $this->layout = '//layouts/column1';
         $model = $this->loadModel($id, 'BookedTable');
+        if ($model->state_id == User::STATE_ACTIVE)
+            {
+            $model->sendEmail($model->email, 'Booking Canceled', 'canceled');
+            $model->sendEmail("swap.guleria@gmail.com", 'Booking Canceled', 'canceled_admin');
+            $model->state_id = User::STATE_INACTIVE;
+            $model->save();
+            }
+
 //if( !($this->isAllowed ( $model)))	throw new CHttpException(403, Yii::t('app','You are not allowed to access this page.'));
         $this->performAjaxValidation($model, 'booked-table-form');
         $this->updateMenuItems($model);
@@ -219,6 +227,7 @@ class BookedTableController extends GxController
             'model' => $model,
         ));
         }
+
     public function actionAdminHistory()
         {
         $model = new BookedTable('search');
@@ -231,6 +240,7 @@ class BookedTableController extends GxController
             'model' => $model,
         ));
         }
+
     public function actionAdminUpcoming()
         {
         $model = new BookedTable('search');

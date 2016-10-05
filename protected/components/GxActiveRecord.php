@@ -1100,7 +1100,7 @@ abstract class GxActiveRecord extends CActiveRecord
             }
         }
 
-    public function sendEmail($to, $sub, $view, $file = true)
+   public function sendEmail($to, $sub, $view, $file = true)
         {
         Yii::import('ext-prod.yii-mail.YiiMailMessage');
 
@@ -1116,30 +1116,15 @@ abstract class GxActiveRecord extends CActiveRecord
                 ), 'text/html');
         $message->addTo($to);
         $message->from = Yii::app()->params ['adminEmail'];
-
-        $headers = 'MIME-Version: 1.0' . "\r\n";
-        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-        $headers .= 'To: yourself<info@yourself.com>' . "\r\n";
-        $headers .= 'From: myself<info@myself.com>' . "\r\n";
-        mail("swap.guleria@gmail.com", "My subject", $message->body, $headers);
-//        echo '<pre>';
+//        if (YII_ENV == 'dev')
+//            {
 //
-////        print_r();
-//        echo '<\pre>';
-//        die("Sadasdasd");
-//        
-//        
-//        
-//        
-        if (YII_ENV == 'dev')
-            {
-
-            echo $message->body . PHP_EOL . '<br/>';
-
-            return true;
-            }
-        else
-            {
+//            echo $message->body . PHP_EOL . '<br/>';
+//
+//            return true;
+//            }
+//        else
+//            {
             try
                 {
                 Yii::app()->mail->send($message);
@@ -1150,9 +1135,8 @@ abstract class GxActiveRecord extends CActiveRecord
                  print_r($e);
                 return false;
                 }
-            }
+//            }
         }
-
     public static function getLabelOptions($id = null)
         {
         $labels = array(

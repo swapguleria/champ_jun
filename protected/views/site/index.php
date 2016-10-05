@@ -88,7 +88,7 @@ $home_pages = Homepage::model()->find();
         <div class="blend-content">
             <h1><?php echo $home_pages->tab_2_title ?></h1>
             <p><?php echo $home_pages->tab_2_text ?></p>
-            <a href="<?php echo Yii::app()->createUrl("site/book"); ?>">Book a Table</a>
+            <a href="<?php echo Yii::app()->createUrl("bookTable/book"); ?>">Book a Table</a>
         </div>
     </div><!--container-->
 </section><!--perfect-blend-->

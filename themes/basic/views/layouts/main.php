@@ -74,11 +74,11 @@ $home_pages = Homepage::model()->find();
         $criteria->compare('controller', $controller);
         $url = Url::model()->find($criteria);
         $banner = Banner::model()->findByAttributes(array('url_id' => $url['id']));
-
+//        print_r($banner);
         if ($this->action->id != 'index')
             {
             ?>
-            <section class="site-banner inner-banner about-banner" style="background:url('../themes/basic/images/about-us-banner.jpg') no-repeat">
+            <section class="site-banner inner-banner about-banner" style="background:url('<?php echo Yii::app()->request->baseUrl; ?>/themes/basic/images/about-us-banner.jpg') no-repeat">
                 <div class="banner-caption">
                     <h1><?php echo $banner['name']; ?></h1>
                     <h2><?php echo $banner['tagline']; ?></h2>
@@ -207,6 +207,7 @@ $home_pages = Homepage::model()->find();
                                     <p><?php echo $contact_details->email; ?>
                                     </p>
                                 </div>
+
                             </div>
                         </div>
                     </div>
